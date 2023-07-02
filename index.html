@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>At Least One</title>
+	<link rel="stylesheet" href="index.css">
+	<script src="index.js"></script>
+</head>
+<body>
+	<div>
+		<form>
+			<label>Attempts: </label><input type="text" id="attempts" placeholder="Enter a number: 0 or higher"><br>
+			<label>Probability: </label><input type="text" id="probability" placeholder="Enter a number: 0% - 100%"><br>
+			<textarea readonly="true"></textarea><br>
+			<button onclick="atLeastOne(); return false;" id="submit">Submit</button>
+			<button id="reset" onclick="location.reload();">Reset</button>
+		</form>
+	</div>
+</body>
+</html>
