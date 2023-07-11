@@ -1,3 +1,5 @@
+body{position: fixed;}
+
 div{
 	display: block;
 	margin-top: 20%;
